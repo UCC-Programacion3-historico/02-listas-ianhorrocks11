@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 # Agrego todos los test.
 add_subdirectory(test)
 
-set(SOURCE_FILES_01 01_Invierte/main.cpp Lista/Lista.h)
+set(SOURCE_FILES_01 01_Invierte/main.cpp Lista/Lista.h Lista/Nodo.h)
 add_executable(01_Invierte ${SOURCE_FILES_01})
 
 set(SOURCE_FILES_02 02_Insertar/main.cpp)
